@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission - Christ University</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <img src="/static/images/logo.jpg" alt="Christ University Logo" class="college-logo">
+        <nav>
+            <ul>
+                <li><a href="/template/index.html">Home</a></li>
+                <li><a href="/template/about.html">About Us</a></li>
+                <li><a href="/template/courses.html">Programs/Courses</a></li>
+                <li><a href="/template/admission.html">Admission</a></li>
+                <li><a href="/template/faculty.html">Faculty</a></li>
+                <li><a href="/template/student_life.html">Student Life</a></li>
+                <li><a href="/template/contact.html">Contact Us</a></li>
+                <li><a href="/template/events.html">Events/News</a></li>
+            </ul>
+        </nav>
+    </header>
+<section class="admission-section">
+    <div class="adm">
+    <h1 style="text-align: center; color: #f4f4f4;">Admission at Christ University</h1>
+    <br>
+    <h3 style="color: #f4f4f4;">Admission Process</h3>
+    <p>The admission process at Christ University is designed to be straightforward and transparent. Prospective students are required to fill out an online application form available on our website.</p>
+    <br>
+    <h3 style="color: #f4f4f4;">Admission Requirements</h3>
+    <ul>
+        <li>For Undergraduate Programs: Completion of 12 years of schooling with a minimum of 50% aggregate marks.</li>
+        <li>For Postgraduate Programs: Bachelor's degree in a relevant field with a minimum of 50% aggregate marks.</li>
+        <li>For Doctoral Programs: Master's degree in a relevant field with a minimum of 55% aggregate marks.</li>
+    </ul></div>
+    <div class="adm1">
+    <h2 style="text-align: center; color: #f4f4f4;" >Apply Now</h2>
+    <form action="submit_application.php" method="post" class="admission-form">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program">
+                <option value="Undergraduate">Undergraduate</option>
+                <option value="Postgraduate">Postgraduate</option>
+                <option value="Doctoral">Doctoral</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit">Submit Application</button>
+    </form></div>
+</section>
+   <footer>
+        <p>&copy; 2024 Christ University. All rights reserved.</p>
+    </footer>
+</body>
+</html>

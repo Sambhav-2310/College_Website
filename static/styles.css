@@ -1,0 +1,360 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff;
+    color: #333;
+}
+
+.college-logo {
+    width: 250px; /* Adjust width as needed */
+    margin-bottom: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: #f4f4f4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #0056b3;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #acb4bc;
+}
+
+/* Style the main content section */
+
+.college-info {
+    padding: 40px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    size: 20px;
+}
+
+.campus-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in;
+}
+
+.campus-image:hover {
+    transform: scale(1.05);
+}
+.college-gallery {
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+/* Style the footer */
+footer {
+    background-color: #f4f4f4;
+    color: #007bff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.about-section {
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.about-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.serch-hd2{
+    font-size: 50px;
+    font-weight: 300;
+    color: #f4f4f4;
+    margin: 0 auto;
+    padding-left: 101px;
+    margin-bottom: 50px;
+    font-family: 'Helvetica Neue', Arial;
+}
+
+.his{
+    color: #fff;
+}
+
+.hist{
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in;
+}
+
+.about-section1{
+    padding: 40px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    size: 20px;
+    color: #000000;
+}
+
+.courses-section {
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.course {
+    margin-bottom: 30px;
+}
+
+.courses-section h1{
+    color: #000000;
+    size: 20px;
+}
+.courses-section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #f4f4f4;
+}
+
+.course ul {
+    list-style-type: none;
+}
+
+.course ul li {
+    margin-bottom: 10px;
+}
+
+.admission-section {
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.adm{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.admission-section ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.admission-form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5e7b99;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.faculty-section {
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.faculty-member {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.faculty-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.faculty-details {
+    flex-grow: 1;
+}
+
+.faculty-details h2 {
+    margin-top: 0;
+}
+
+.student-life-section{
+    padding: 40px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    size: 20px;
+}
+
+.student-life-section1{
+    padding: 40px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    size: 20px;
+}
+
+.activity {
+    margin-bottom: 30px;
+}
+
+.activity h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+.contact-section {
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.contact-info,
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5e7b99;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.events-section {
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.event {
+    margin-bottom: 30px;
+    background-color: #f4f4f4;
+}
+
+.event h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+}
+
+.sgallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
